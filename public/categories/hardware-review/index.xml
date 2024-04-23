@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware review on Naman&#39;s tech blog</title>
+    <link>https://blog.cyberloki.dev/categories/hardware-review/</link>
+    <description>Recent content in hardware review on Naman&#39;s tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cyberloki.dev/categories/hardware-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Linux Beginnings</title>
+      <link>https://blog.cyberloki.dev/posts/linux-experience/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cyberloki.dev/posts/linux-experience/</guid>
+      <description>Preface  Link to heading   I&amp;rsquo;ve always been a big Linux guy. I started running Linux back while I was studying for my bachelors. Since I had no clue which distro was good or bad, I had to go with the most meme-worthy one. I started out with Arch Linux because I saw a meme that went like: &amp;ldquo;I run Arch btw&amp;rdquo; on reddit. I didn&amp;rsquo;t quite get what the hype was all about initially, had I known the pain and suffering that I will have to go through just to get the system to boot, I would thought twice before taking the jump.</description>
+    </item>
+    
+  </channel>
+</rss>
