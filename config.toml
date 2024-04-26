@@ -1,5 +1,5 @@
 baseURL = "https://blog.cyberloki.dev/"
-title = "Naman's tech blog"
+title = "Naman's blog"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
