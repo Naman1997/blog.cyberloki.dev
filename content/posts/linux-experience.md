@@ -47,3 +47,10 @@ After another 4 hours, it was clear that I was doing something wrong. I decided 
 
 Using the proprietary drivers sounded like a bad idea back then. It still does, if I'm being honest, but it fixed my system back then and I couldn't be more grateful.
 
+Although I'm not exactly happy about running proprietary drivers on my machine today, I do need to give credit where credit is due. From my experience, the proprietary drivers have always had better compatibility and performance on all my devices. I do hope that this changes with the advent of projects like NVK in the future.
+
+# Conclusions
+- Don't try experiments on your only machine.
+- Make sure to make a backup image/disk on a
+separate disk if you do.
+- For the love of all that is holy, do not try Arch as your first distro.
