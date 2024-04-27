@@ -14,4 +14,4 @@ series = []
 This is a test
 
 
-{{< figure src="static/images/IMG20240116055154.jpg" title="An elephant at sunset" >}}
+{{< figure src="/images/IMG20240116055154.jpg" title="An elephant at sunset" >}}
