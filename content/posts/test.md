@@ -1,16 +1,13 @@
 +++
 authors = ["Naman Arora"]
-title = "My Linux Beginnings"
-date = "2023-07-07"
-description = "Beginning of my linux experience"
+title = "Test post"
+date = "2024-04-27"
+description = "Post for testing hugo"
 tags = [
-    "linux desktop",
 ]
 categories = [
-    "hardware review",
-    "linux desktop",
 ]
-series = ["Hardware Review"]
+series = []
 +++
 
 # Preface
