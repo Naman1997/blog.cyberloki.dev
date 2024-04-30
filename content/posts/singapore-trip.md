@@ -1,7 +1,7 @@
 +++
 authors = ["Naman Arora"]
 title = "My trip to Singapore!"
-date = "2024-04-27"
+date = "2024-04-30"
 description = "Singapore Airport trip"
 tags = [
     "photos"
