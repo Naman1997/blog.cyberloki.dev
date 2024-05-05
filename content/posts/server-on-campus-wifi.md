@@ -1,7 +1,7 @@
 +++
 authors = ["Naman Arora"]
 title = "How to manage a server on a network you don't control?"
-date = "2024-04-15"
+date = "2024-05-05"
 description = "How I manage my server on campus WiFi"
 tags = [
     "linux server",
