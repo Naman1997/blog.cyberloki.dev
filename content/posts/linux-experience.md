@@ -7,7 +7,6 @@ tags = [
     "linux desktop",
 ]
 categories = [
-    "hardware review",
     "linux desktop",
 ]
 series = ["Hardware Review"]
