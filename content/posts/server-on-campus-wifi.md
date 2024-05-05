@@ -10,7 +10,7 @@ tags = [
 categories = [
     "linux server",
 ]
-series = ["Hardware Review"]
+series = ["Linux", "Automation"]
 +++
 
 # Preface

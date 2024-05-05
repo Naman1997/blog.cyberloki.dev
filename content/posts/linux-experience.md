@@ -9,7 +9,7 @@ tags = [
 categories = [
     "linux desktop",
 ]
-series = ["Hardware Review"]
+series = ["Linux"]
 +++
 
 # Preface
