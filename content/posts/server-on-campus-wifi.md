@@ -118,3 +118,49 @@ sudo systemctl enable startup.service
 ```
 
 Now everytime your system reboots, your device will automatically connect to the WiFi!
+
+Another thing that you can do at this point is to install (tailscale)[https://tailscale.com/] and access this node remotely. I like to do this because tailscale makes it easy to get an encrypted tunnel between 2 nodes that are both on separate private networks. This allows me run SSH and other protocols over this tunnel from an entirely different network. Tailscale has bunch of other features, but that's for you to discover!
+
+## Staying on the network
+
+If your campus wifi hates you like mine does, it'll keep on sending you de-auth requests from time to time. This is generally a very good idea as a network admin as this makes sure that you only have actual devices that are readily being used on the network. However, this quickly becomes a problem when you are away for class and your server gets disconnected due to this annoying network feature. The good thing is that, at least on Linux, you can make all of these pesky problems go away with a little bit of work.
+
+### Enter NetworkManager-dispatcher
+I honestly had no idea that such a useful program existed. This thing is a systemd service that gets triggered on a network change. This will run any script in the `/etc/NetworkManager/dispatcher.d` directory and send it 2 arguments, the interface name that had a change and the action that happened.
+We don't care much about the interface name, but action is something very interesting indeed. Let's see how I just copied the same script above to reconnect to the network if it ever gets disconnected.
+
+```
+# Enable the dispatcher
+sudo systemctl enable --now NetworkManager-dispatcher.service
+cd /etc/NetworkManager/dispatcher.d
+sudo vim startup.sh
+## Copy the file contents from below!
+```
+
+Update the same 2 things (SSID and curl request) here as well.
+
+```
+if [ "$2" = "down" ]; then
+  nmcli d wifi connect <SSID>
+  echo 'Sleeing for 3 seconds'
+  sleep 3
+  # Your cURL request goes here!
+fi
+
+exit 0
+```
+
+Now we're ready to enable it for the system!
+```
+sudo chown root:root startup.sh
+sudo chmod +x startup.sh
+```
+
+Now. your server will automatically reconnect to the WiFi even if it recieves a disconnection request from the Access Point!
+
+To test this, you run the following commands to manually disconnect from the network:
+```
+sudo nmcli con down id "<SSID>"
+```
+
+If you're able to connect over SSH to the device after 3 seconds, then it works!
