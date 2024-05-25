@@ -20,7 +20,7 @@ Most students in colleges probably don't have their own server hardware using th
 - You're probably MITMed if they're using an SSL Proxy
 - You don't know if your server will get the same IP address as the last time or not
 - You probably have some sort of webpage based login preventing automatic WiFi connection
-- You're a normal person who does not own a server in the first place 😂
+- You're a normal person who does not own a server in the first place(lol)
 
 You'll probably not want to use such a network for anything other than Spotify and some gaming.
 But, if you're not made of money, and most of us are not, you'll probably think of keeping a server on such a network for learning purposes. Which is exactly what I'm gonna help you do today!
@@ -140,7 +140,7 @@ sudo vim startup.sh
 Update the same 2 things (SSID and curl request) here as well.
 
 ```
-if [ "$2" = "down" ]; then
+if [[ "$2" = "down" || "$CONNECTIVITY_STATE" != "FULL" ]]; then
   nmcli d wifi connect <SSID>
   echo 'Sleeing for 3 seconds'
   sleep 3
