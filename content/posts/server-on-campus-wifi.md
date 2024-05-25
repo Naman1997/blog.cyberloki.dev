@@ -140,7 +140,7 @@ sudo vim startup.sh
 Update the same 2 things (SSID and curl request) here as well.
 
 ```
-if [[ "$2" = "down" || "$CONNECTIVITY_STATE" != "FULL" ]]; then
+if [[ "$2" = "down" || "$CONNECTIVITY_STATE" != "FULL" || || "$CONNECTIVITY_STATE" != "LIMITED" ]]; then
   nmcli d wifi connect <SSID>
   echo 'Sleeing for 3 seconds'
   sleep 3
