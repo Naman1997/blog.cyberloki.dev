@@ -1,7 +1,7 @@
 +++
 authors = ["Naman Arora"]
 title = "The smartphone dystopia"
-date = "2024-04-15"
+date = "2024-06-05"
 description = "How the you're being reprogrammed without root access!"
 tags = [
     "Random",
