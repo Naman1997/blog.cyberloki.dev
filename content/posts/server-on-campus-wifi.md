@@ -119,7 +119,7 @@ sudo systemctl enable startup.service
 
 Now everytime your system reboots, your device will automatically connect to the WiFi!
 
-Another thing that you can do at this point is to install (tailscale)[https://tailscale.com/] and access this node remotely. I like to do this because tailscale makes it easy to get an encrypted tunnel between 2 nodes that are both on separate private networks. This allows me run SSH and other protocols over this tunnel from an entirely different network. Tailscale has bunch of other features, but that's for you to discover!
+Another thing that you can do at this point is to install [tailscale](https://tailscale.com/) and access this node remotely. I like to do this because tailscale makes it easy to get an encrypted tunnel between 2 nodes that are both on separate private networks. This allows me run SSH and other protocols over this tunnel from an entirely different network. Tailscale has bunch of other features, but that's for you to discover!
 
 ## Staying on the network
 
