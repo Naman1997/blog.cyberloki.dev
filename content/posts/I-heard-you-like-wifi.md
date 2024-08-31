@@ -51,7 +51,7 @@ I used to have a laptop whose motherboard essentially fried itself (thank you as
 
 I pulled out the Rx/Tx wires from my laptop and plugged them into antennas from an even older wifi router. This is an image of me opening up the display housing of my laptop. It houses the connector wires that plugged into the wifi chip.
 
-{{< figure src=/images/I-heard-you-like-wifi/opening-the-screen.png >}}
+{{< figure src=/images/I-heard-you-like-wifi/screwdriver.png >}}
 
 
 The image below actually shows the wifi chip that is plugged into the motherboard along with the black and white wires that I extracted from the laptop's display housing.
