@@ -1,8 +1,8 @@
 +++
 authors = ["Naman Arora"]
-title = "My Linux Beginnings"
+title = "The salvaged wifi chip"
 date = "2024-08-30"
-description = "Beginning of my linux experience"
+description = "TIL: You can actually use laptop wifi chips on ATX motherboards"
 tags = [
     "Hardware",
 ]
