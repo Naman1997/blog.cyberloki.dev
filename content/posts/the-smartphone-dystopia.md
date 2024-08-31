@@ -4,10 +4,10 @@ title = "The smartphone dystopia"
 date = "2024-06-04"
 description = "How you're being reprogrammed without root access!"
 tags = [
-    "Random",
+    "Digital Wellbeing",
 ]
 categories = [
-    "Random",
+    "Digital Wellbeing",
 ]
 series = []
 +++
