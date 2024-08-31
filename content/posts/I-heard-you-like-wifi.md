@@ -15,19 +15,19 @@ series = []
 
 # Preface
 
-Do you live in a house with no ethernet wiring? Do you have an old broken laptop that you'd like to salvage parts off of? Do you have a desktop that could use wifi, but wifi chips are too damn expensive?
+Do you live in a house with no Ethernet wiring? Do you have an old broken laptop that you'd like to salvage parts off of? Do you have a desktop that could use wifi, but wifi chips are too damn expensive?
 
-If you answered 'yes' to all the questions above, then keep reading more to how I (and hopefully you) saved money by salvaging a wifi chip from a broken laptop.
+If you answered 'yes' to all the questions above, then keep reading more to learn how I (and hopefully you!) saved money by salvaging a wifi chip from a broken laptop.
 
 # Introduction
 
-The tale begins when I was about to leave for Australia for my higher studies. I used to own a pretty badass PC with a 10th gen i7, 32GB of RAM, RTX 3070 and a bunch of networking cards for learning VLANS and other networking related things. This thing was a beast. It ran Proxmox and passed through the intel iGPU to a Linux VM and passed through the RTX 3070 to a Windows VM. Now, this is a pretty complicated setup because you cannot actually access the Proxmox OS without networking. What I mean is that you need SSH or the Proxmox web GUI to be able to manage this OS, if the networking stack goes down for any reason, you cannot access the shell because well, that intel iGPU is basically invisible to the OS! There are ways around this, but maybe we'll get into that in another post.
+The tale begins when I was about to leave for Australia for my higher studies. I used to own a pretty badass PC with a 10th gen i7, 32GB of RAM, RTX 3070 and a bunch of networking cards for learning VLANS and other networking related things. This thing was a beast. It ran Proxmox and passed through the intel iGPU to a Linux VM and passed through the RTX 3070 to a Windows VM. Now, this is a pretty complicated setup because you cannot actually access the Proxmox OS without networking. What I means is that you need SSH or the Proxmox web GUI to be able to manage this setup, if the networking stack goes down for any reason, you cannot access the shell because well, that intel iGPU is basically invisible to the OS!
 
-For the purposes of this post, I could not leave such a complicated setup with my family. I could try and manage it remotely, but I would not be able to debug any issues in case Proxmox decided to push a bad update which borked the network stack. My dad was the one who actually introduced me to Linux, but in this case I decided that Windows was a better choice if I wanted him to have a good experience.
+I could not leave such a complicated setup with my family. I could try and manage it remotely, but I would not be able to debug any issues in case Proxmox decided to push a bad update which borked the network stack. My dad was the one who actually introduced me to Linux, but in this case I decided that Windows was a better choice if I wanted him to have a good experience.
 
 # The problems begin
 
-At this point I installed windows and also had set up an alternate user with Tailscale installed in case I wanted to remote into the system. However, I had failed to realize that the OS was going to be the least of my problems in this transfer. My family decided they wanted the system to not be in my room, but in the living room. The issue with such a move is that the WAN for our house entered from my room and basically ended there. Since we were renting the place, we were not allowed to drill any holes for Ethernet wiring.
+At this point I installed Windows and also had set up an alternate user with Tailscale installed in case I wanted to remote into the system. However, I had failed to realize that the OS was going to be the least of my problems in this transfer. My family decided they wanted the system to not be in my room, but in the living room. The issue with such a move is that the WAN for our house entered from my room and basically ended there. Since we were renting the place, we were not allowed to drill any holes for Ethernet wiring.
 
 In any case, everyone decided that my old room was going to be used as a guest room and that I had to move my PC to the living room. And so, I moved the whole thing without the networking bits to the living room.
 
