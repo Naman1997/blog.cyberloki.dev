@@ -1,7 +1,7 @@
 +++
 authors = ["Naman Arora"]
 title = "My Linux Beginnings"
-date = "2024-04-15"
+date = "2024-08-30"
 description = "Beginning of my linux experience"
 tags = [
     "Hardware",
