@@ -1,7 +1,7 @@
 +++
 authors = ["Naman Arora"]
 title = "What fixing my earbuds taught me"
-date = "2025-05-18"
+date = "2025-05-17"
 description = "What fixing my earbuds taught me"
 tags = [
    "Hardware",
