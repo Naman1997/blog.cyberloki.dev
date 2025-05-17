@@ -16,7 +16,7 @@ series = []
 
 Last year, my earbuds decided that they had served me enough and it was time to retire. Although it had been more than 3 years since I bought them, these were still expensive wireless earbuds. I remember paying upwards of 8,000 INR which is around $100 USD. Now, I don't know about you, but I have survived off of 5-10 dollar earphones well into my 20s. I have tried higher end headphones and earphones, and honestly, the difference in quality is not worth it for me. However, the reason I stepped up my audio game was because these earphones have a feature that I absolutely love - ANC. Active Noise Cancellation or ANC makes the experience of listening to podcasts, music, anything really 100x better.
 
-These wireless earbuds were also an upgrade in terms of fiddling with wires. Gone were the days where I needed to mess with the excess wire that came out of my device. Although I hate the fact that companies have taken away the headphone jack from most smartphones, if anyone asks me today which type of earphones I prefer, it will have to be the wireless ones.
+These wireless earbuds were also an upgrade in some other ways. Gone were the days where I needed to mess with excess wire that came out of my device. Although I hate the fact that companies have taken away the headphone jack from most smartphones, if anyone asks me today which type of earphones I prefer, it will have to be the wireless ones.
 
 # My heart's a (broken) stereo
 
@@ -30,7 +30,7 @@ I found these helpful guides for battery replacement and immediately started loo
 
 {{< figure src=/images/what-fixing-my-earbuds-taught-me/ebay.png >}}
 
-Now, 20$ might not sound like much, but this was an investment for me, and it paid off in dividends. I was able to fix the earbuds and get them in working condition in under a day! I was extremely happy. Not because I did something that most people would avoid, but because I had learnt how to fix an essential piece of equipment for myself. The next time these break again, I can just redo the same procedure. I had been the kind of person that avoided the risk and complexity of modern equipment. However, this experience taught me that trying something difficult is not about the complexity, but the imagined dragons (Imagine Dragons lets gooo!!) that we make up in our heads.
+Now, 20$ might not sound like much, but this was an investment for me, and it paid off. I was able to fix the earbuds and get them in working condition in under a day! I was extremely happy. Not because I did something that most people would avoid, but because I had learnt how to fix an essential piece of equipment for myself. The next time their batteries go bad, I can just redo the same procedure. I had been the kind of person that avoided the risk and complexity that comes with fixing modern equipment. However, this experience taught me that trying something like this is not scary because of the complexity, but because of imagined dragons (Imagine Dragons lets gooo!!) that we make up in our heads.
 
 # Proof of Work (PoW!)
 
