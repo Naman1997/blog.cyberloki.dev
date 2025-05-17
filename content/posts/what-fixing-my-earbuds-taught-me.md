@@ -26,7 +26,7 @@ I had 2 options at this point. Either spend around $100 USD ($150 AUD) again and
 
 {{< figure src=/images/what-fixing-my-earbuds-taught-me/ifixit.png >}}
 
-I found these helpful guides for battery replacement and immediately started looking for the model of batteries that were recommended. I instantly found the model on ebay and ordered a pair.
+I found this helpful guide for battery replacement and immediately started looking for the model of batteries that were recommended. I instantly found the model on ebay and ordered a pair.
 
 {{< figure src=/images/what-fixing-my-earbuds-taught-me/ebay.png >}}
 
