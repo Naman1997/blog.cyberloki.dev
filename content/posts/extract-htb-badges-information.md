@@ -63,7 +63,7 @@ figure.grid {
 }
 ```
 
-Edit: I also added some CSS later in an effort to centre the items within the grid.
+Edit: I also added some CSS later in an effort to centre the items within the grid. These changes also make the grid responsive to display sizes.
 
 ```scss
 .content figcaption p {
@@ -74,5 +74,12 @@ Edit: I also added some CSS later in an effort to centre the items within the gr
    font-size: 1.6rem;
    margin: 0;
    display: inline-block;
+}
+
+@media only screen and (max-width: 810px) {
+	figure.grid {
+		display: inherit;
+		gap: 5px;
+	}
 }
 ```
