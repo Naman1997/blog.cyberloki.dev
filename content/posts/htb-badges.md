@@ -12,6 +12,8 @@ categories = [
 series = ["Pentesting"]
 +++
 
+All badges are clickable!
+
 {{< figure src="https://academy.hackthebox.com/storage/badges/hacking-in-the-wild.png" width=250 class="grid" alt="Hacking in the wild" link="https://academy.hackthebox.com/achievement/badge/80d24739-124b-11f0-864f-bea50ffe6cb4" caption="Hacking in the wild">}}
 {{< figure src="https://academy.hackthebox.com/storage/badges/the-eye-that-sees-all.png" width=250 class="grid" alt="The eye that sees all" link="https://academy.hackthebox.com/achievement/badge/36fd9e1b-7b6c-11ef-864f-bea50ffe6cb4" caption="The eye that sees all">}}
 {{< figure src="https://academy.hackthebox.com/storage/badges/every-road-leads-back-to-root.png" width=250 class="grid" alt="Every road leads back to root" link="https://academy.hackthebox.com/achievement/badge/dc79b5ab-c1f0-11ef-864f-bea50ffe6cb4" caption="Every road leads back to root">}}

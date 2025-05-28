@@ -4,10 +4,10 @@ title = "How to extract Hack The Box badges for your site"
 date = "2025-05-27"
 description = "How to extract Hack The Box badges for your site"
 tags = [
-    "Pentesting",
+   "Pentesting",
 ]
 categories = [
-    "Pentesting",
+   "Pentesting",
 ]
 series = ["Pentesting"]
 +++
@@ -22,7 +22,9 @@ Your HTB badges can be found on [https://academy.hackthebox.com/my-badges](https
 
 {{< figure src=/images/extract-htb-badges-information/network-request.png >}}
 
-As we can see, the application makes an API call to a 'badges' endpoint to get the full list of badges availalble. I just copied this information as I'm not interested in automating the full flow, but I imagine that there is a way to fetch this information on the fly.
+
+As we can see, the application makes an API call to a 'badges' endpoint to get the full list of badges available. I just copied this information as I'm not interested in automating the full flow, but I imagine that there is a way to fetch this information on the fly.
+
 
 I copied this information to a file named `badges.json` on my system and ran the following command to extract awarded badges.
 
@@ -32,14 +34,16 @@ jq '.data[].badges[] | select( .awarded == true)' badges.json
 
 {{< figure src=/images/extract-htb-badges-information/json.png >}}
 
-As you can see there are various fields that are very useful. I wrote the following shell script that extracts the logo, title and sharing_url and formats it into a hugo `figure` object. I also added a class named 'grid' as I wanted to create a [CSS grid](https://www.w3schools.com/css/css_grid.asp) and override the css settings of my hugo theme.
+
+As you can see there are various fields that are very useful. I wrote the following shell script that extracts the logo, title and sharing_url and formats it into a hugo `figure` object. I also added a class named 'grid' as I wanted to create a [CSS grid](https://www.w3schools.com/css/css_grid.asp) and override the css settings of my Hugo theme.
+
 
 ```bash
 cat badges.json | jq -c '.data[].badges[] | select( .awarded == true)' | while read f; do
-	logo=$(echo "$f" | jq .logo);
-	title=$(echo "$f" | jq .title);
-	sharing_url=$(echo "$f" | jq .sharing_url);
-	echo "{{</* figure src=$logo width=250 class=\"grid\" alt=$title link=$sharing_url caption=$title*/>}}";
+   logo=$(echo "$f" | jq .logo);
+   title=$(echo "$f" | jq .title);
+   sharing_url=$(echo "$f" | jq .sharing_url);
+   echo "{{</* figure src=$logo width=250 class=\"grid\" alt=$title link=$sharing_url caption=$title*/>}}";
 done
 exit
 ```
@@ -54,8 +58,8 @@ I'll admit, I'm pretty bad when it comes to frontend design, but I'm happy that 
 
 ```scss
 figure.grid {
-	display: inline-grid;
-	gap: 5px;
+   display: inline-grid;
+   gap: 5px;
 }
 ```
 
@@ -63,12 +67,12 @@ Edit: I also added some CSS later in an effort to centre the items within the gr
 
 ```scss
 .content figcaption p {
-	word-break: break-word; 
-	max-width: 20ch;
-	text-align: center;
-	font-style: italic;
-	font-size: 1.6rem;
-	margin: 0;
-	display: inline-block;
+   word-break: break-word;
+   max-width: 20ch;
+   text-align: center;
+   font-style: italic;
+   font-size: 1.6rem;
+   margin: 0;
+   display: inline-block;
 }
 ```
