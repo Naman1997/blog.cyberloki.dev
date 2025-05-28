@@ -58,3 +58,17 @@ figure.grid {
 	gap: 5px;
 }
 ```
+
+Edit: I also added some CSS later in an effort to centre the items within the grid.
+
+```scss
+.content figcaption p {
+	word-break: break-word; 
+	max-width: 20ch;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.6rem;
+	margin: 0;
+	display: inline-block;
+}
+```
