@@ -3,18 +3,19 @@ title = "Naman's blog"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 6
 enableEmoji = true
-# Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
 
+[pagination]
+pagerSize = 10
+
+[markup]
 [markup.highlight]
 noClasses = false
 
 [params]
 author = "Naman Arora"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Naman's personal website"
+description = "Naman's personal blog"
 keywords = "blog,developer,personal"
 info = ["Software Engineer and Cybersecurity student"]
 avatarURL = "images/avatar.jpg"
