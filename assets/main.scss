@@ -12,3 +12,10 @@ figure.grid {
 	margin: 0;
 	display: inline-block;
 }
+
+@media only screen and (max-width: 400px) {
+	figure.grid {
+		display: inherit;
+		gap: 5px;
+	}
+}
