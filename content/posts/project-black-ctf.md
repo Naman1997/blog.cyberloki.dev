@@ -22,11 +22,11 @@ The challenge starts with a link to challenge5.txt which is an empty looking fil
 
 {{< figure src=/images/project-black-ctf/image1.png >}}
 
-Uploading the file to cyberchef reveals that there are 2 binary characters in the file.
+Uploading the file to cyberchef reveals that there are 2 characters in the file. This hinted at the file containing some sort of binary information.
 
 {{< figure src=/images/project-black-ctf/image2.png >}}
 
-I wrote this python script in order to read all bytes and replace them with either 1 or 0. This creates a binary representation of the contents that we can further analyse.
+I wrote this python script in order to read all bytes and replace them with either 1 or 0. This creates a binary representation of the contents that we can further analyse. I wasted some time on this step as I was not sure which byte they expected to be `1` and which byte to be `0`.
 
 ```python
 filename = "/home/kali/project-black/challenge5.txt"
