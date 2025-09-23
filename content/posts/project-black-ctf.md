@@ -66,7 +66,7 @@ We go to cyberchef again to get our first flag!
 Flag 1: PRJBLK{1/6:_fIR$t_0f_m@nY_fL@gz._wHEr3_W1lL_Y0u_pUT_Th3M_@1l?}
 ```
 
-Upon accessing the `api` directory, we are greeted with another flag and the list of files on the webserver.
+Upon accessing the `api/listing.php` file that is mentioned in the decoded cipher, we are greeted with another flag and the list of files on the webserver.
 
 {{< figure src=/images/project-black-ctf/image7.png >}}
 
@@ -74,7 +74,7 @@ Upon accessing the `api` directory, we are greeted with another flag and the lis
 Flag 2: PRJBLK{2/6:_oH_b0y,_Wh@t_d0_W3_H@vE_hEr3}
 ```
 
-Now flag 3 is kind of interesting because I found flag 4 before I discovered that flag. However, to keep things in order, here is how to discover flag 3.
+Now flag 3 is kind of interesting because I found flag 4 before it. However, to keep things in order, here is how to discover flag 3.
 
 {{< figure src=/images/project-black-ctf/image8.png >}}
 
@@ -127,11 +127,11 @@ Here, the usage of the loose comparator `!=` is a problem. We can try to find us
 
 {{< figure src=/images/project-black-ctf/image14.png >}}
 
-From the `users.php` file, we saw that the user `eddie` has its password starting from `e0`.
+From the `users.php` file, we saw that the user `eddie` has a password hash starting from `e0`.
 
 {{< figure src=/images/project-black-ctf/image15.png >}}
 
-Logging in the following creds logs us in the website. User: `eddie` and Password: `34250003024812`. Other passwords starting from `e0` will also work because of the same vulnerability as explained above.
+Using the following creds logs us in the website. User: `eddie` and Password: `34250003024812`. Other passwords starting from `e0` will also work because of the same vulnerability as explained above.
 
 This gives us the 5th flag!
 
