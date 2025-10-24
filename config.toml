@@ -135,10 +135,10 @@ weight = 1
 url = "https://github.com/Naman1997/"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
+name = "YouTube"
+icon = "fa-brands fa-youtube fa-2x"
 weight = 3
-url = "https://twitter.com/aroranaman17"
+url = "https://www.youtube.com/@ossmaker"
 
 [[params.social]]
 name = "LinkedIn"
