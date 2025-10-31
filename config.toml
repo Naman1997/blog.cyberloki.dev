@@ -1,6 +1,7 @@
 baseURL = "https://blog.cyberloki.dev/"
 title = "Naman's blog"
-theme = "hugo-coder"
+theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
+enableInlineShortcodes = true
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
